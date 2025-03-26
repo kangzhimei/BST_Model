@@ -23,6 +23,8 @@ The model demonstrates superior performance in reconstructing:
 * Density curves
 * Compressional wave slowness curves (DTC)
 
+# 🚀 Getting Started
+
 ## Installation
 ***conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia***
 
@@ -32,6 +34,44 @@ The model demonstrates superior performance in reconstructing:
 - [x] sklearn
 - [x] matplotlib
       
-
 ## Data and Model Request  (Google Drive)
 * **Url**: https://drive.google.com/drive/folders/1al2wD71XUC8O40ptx8pVk-sj427mvMTK?usp=drive_link
+
+## Project Structure
+```plaintext
+BST_Model/
+├── code/
+│   ├── test.ipynb
+│   ├── train.ipynb     
+├── data/
+│   ├── raw_data.csv
+│   └── Test data set.csv
+└── model/
+    ├── model_DTC.pkl
+    ├── feature_scaler_DTC.pkl
+    ├── target_scaler_DTC.pkl
+    └── onehot_encoder_DTC.pkl
+```
+## Training Process
+1. **Data Preprocessing**
+   > Process your `raw_data.csv` file according to your project requirements
+   ```python
+   # Example preprocessing steps
+   - Handle missing values
+   - Remove outliers
+   - Normalize data
+   - Feature engineering
+
+2. **Update file paths in config**
+   file_path = 'path/to/your/raw_data.csv'
+   ```python
+   # Model hyperparameters
+   - hidden_dim1 
+   - hidden_dim1 
+   - hidden_dim1 
+   - epochs 
+   - learning_rate
+   
+4. **Run Training**
+
+
