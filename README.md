@@ -63,7 +63,7 @@ BST_Model/
    - Feature engineering
 
 2. **Update file paths in config**
-   file_path = 'path/to/your/raw_data.csv'
+   >file_path = 'path/to/your/raw_data.csv'
    ```python
    # Model hyperparameters
    - hidden_dim1 
