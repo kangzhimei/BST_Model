@@ -74,4 +74,13 @@ BST_Model/
    
 4. **Run Training**
 
+## Testing Process
+1. **Prerequisites**
+   - Download test dataset (Test data set.csv)
+   - Ensure model files are in the correct directory
+2. **Run Testing**
+
+
+
+
 
